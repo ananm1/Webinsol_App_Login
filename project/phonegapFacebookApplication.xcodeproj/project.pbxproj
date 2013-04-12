@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3475AA931717D9FF003EAC70 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3475AA921717D9FF003EAC70 /* icon.png */; };
+		3475AA941717DA15003EAC70 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92A14D27FDA0043991E /* icon.png */; };
+		3475AA961717DA43003EAC70 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3475AA951717DA43003EAC70 /* icon.png */; };
 		34CAE8531717CDEA00A20E3E /* ChildBrowserCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 34F40F471717AA16001DAA42 /* ChildBrowserCommand.h */; };
 		34CAE8541717CDEA00A20E3E /* ChildBrowserViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 34F40F491717AA16001DAA42 /* ChildBrowserViewController.h */; };
 		34CAE8551717CDF400A20E3E /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF93A14D27FDA0043991E /* AppDelegate.h */; };
@@ -31,7 +34,6 @@
 		3ACDF91F14D27FDA0043991E /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACDF91E14D27FDA0043991E /* PhoneGap.framework */; };
 		3ACDF92414D27FDA0043991E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92214D27FDA0043991E /* Localizable.strings */; };
 		3ACDF92814D27FDA0043991E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92614D27FDA0043991E /* Localizable.strings */; };
-		3ACDF92B14D27FDA0043991E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92A14D27FDA0043991E /* icon.png */; };
 		3ACDF92D14D27FDA0043991E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92C14D27FDA0043991E /* icon@2x.png */; };
 		3ACDF92F14D27FDA0043991E /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF92E14D27FDA0043991E /* icon-72.png */; };
 		3ACDF93214D27FDA0043991E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF93114D27FDA0043991E /* Default.png */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3475AA921717D9FF003EAC70 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3475AA951717DA43003EAC70 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		34E2C23E1717A1A8001204D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		34F40F471717AA16001DAA42 /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildBrowserCommand.h; path = ../../ChildBrowserCommand.h; sourceTree = "<group>"; };
 		34F40F481717AA16001DAA42 /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildBrowserCommand.m; path = ../../ChildBrowserCommand.m; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 		3ACDF8E914D27FDA0043991E = {
 			isa = PBXGroup;
 			children = (
+				3475AA921717D9FF003EAC70 /* icon.png */,
 				34E2C23E1717A1A8001204D2 /* Default-568h@2x.png */,
 				3ACDF91514D27FDA0043991E /* phonegapFacebookApplication */,
 				3ACDF8FA14D27FDA0043991E /* Frameworks */,
@@ -183,6 +188,7 @@
 		3ACDF92014D27FDA0043991E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3475AA951717DA43003EAC70 /* icon.png */,
 				3ACDF95314D281EB0043991E /* ChildBrowserViewController.xib */,
 				3ACDF95114D281E60043991E /* ChildBrowser.bundle */,
 				3ACDF93514D27FDA0043991E /* Capture.bundle */,
@@ -306,7 +312,6 @@
 				3ACDF91A14D27FDA0043991E /* InfoPlist.strings in Resources */,
 				3ACDF92414D27FDA0043991E /* Localizable.strings in Resources */,
 				3ACDF92814D27FDA0043991E /* Localizable.strings in Resources */,
-				3ACDF92B14D27FDA0043991E /* icon.png in Resources */,
 				3ACDF92D14D27FDA0043991E /* icon@2x.png in Resources */,
 				3ACDF92F14D27FDA0043991E /* icon-72.png in Resources */,
 				3ACDF93214D27FDA0043991E /* Default.png in Resources */,
@@ -317,6 +322,9 @@
 				3ACDF95214D281E60043991E /* ChildBrowser.bundle in Resources */,
 				3ACDF95414D281EB0043991E /* ChildBrowserViewController.xib in Resources */,
 				34E2C23F1717A1A8001204D2 /* Default-568h@2x.png in Resources */,
+				3475AA931717D9FF003EAC70 /* icon.png in Resources */,
+				3475AA941717DA15003EAC70 /* icon.png in Resources */,
+				3475AA961717DA43003EAC70 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

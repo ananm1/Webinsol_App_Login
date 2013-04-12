@@ -23,16 +23,15 @@ body {
 	display:none;
 }
 .btn {
-	font-size:25px;
+	font-size:20px;
 	text-align:center;
 	padding-top:12px;
 	padding-bottom:12px;
 	width:95%;	
 	border-radius: 5px;	
-	background-color:#305d9a;
+	background-color:#006666;
 	margin:auto;
 	color:#fff;
-	font-weight:bold;
 	box-shadow: 0px 0px 2px .6px #222222;
 }
 #status {
@@ -41,7 +40,7 @@ body {
 	text-align:center;
 }
 #status textarea {
-	border:1px solid #cccccc;
+	border:1px solid #222222;
 	width:94%;
 	height:75px;
 	margin:auto;
